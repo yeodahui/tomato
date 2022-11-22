@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-github-pages/static/css/main.e6c13ad2.css",
-    "main.js": "/react-github-pages/static/js/main.a52350fd.js",
-    "static/js/787.0a01a8ff.chunk.js": "/react-github-pages/static/js/787.0a01a8ff.chunk.js",
-    "index.html": "/react-github-pages/index.html",
-    "static/media/icon-plus.svg": "/react-github-pages/static/media/icon-plus.84478f1596d8d93aef242201a227b42b.svg",
-    "main.e6c13ad2.css.map": "/react-github-pages/static/css/main.e6c13ad2.css.map",
-    "main.a52350fd.js.map": "/react-github-pages/static/js/main.a52350fd.js.map",
-    "787.0a01a8ff.chunk.js.map": "/react-github-pages/static/js/787.0a01a8ff.chunk.js.map"
+    "main.css": "/tomatoreact-github-pages/static/css/main.e6c13ad2.css",
+    "main.js": "/tomatoreact-github-pages/static/js/main.2e56431d.js",
+    "static/js/787.0a01a8ff.chunk.js": "/tomatoreact-github-pages/static/js/787.0a01a8ff.chunk.js",
+    "index.html": "/tomatoreact-github-pages/index.html",
+    "static/media/icon-plus.svg": "/tomatoreact-github-pages/static/media/icon-plus.84478f1596d8d93aef242201a227b42b.svg",
+    "main.e6c13ad2.css.map": "/tomatoreact-github-pages/static/css/main.e6c13ad2.css.map",
+    "main.2e56431d.js.map": "/tomatoreact-github-pages/static/js/main.2e56431d.js.map",
+    "787.0a01a8ff.chunk.js.map": "/tomatoreact-github-pages/static/js/787.0a01a8ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.a52350fd.js"
+    "static/js/main.2e56431d.js"
   ]
 }
