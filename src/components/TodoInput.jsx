@@ -41,11 +41,13 @@ const StyledTodoInput = styled.div`
   }
 `;
 
-const TodoInput = (props) => (
+const TodoInput = ({ handleEnter }) => (
   <StyledTodoInput>
     <input
       className="input-todo"
       type="text"
+      tabIndex="-1"
+      onKeyUp={handleEnter}
       placeholder="할일을 입력하고, Enter키를 눌러 등록하세요."
     />
   </StyledTodoInput>
