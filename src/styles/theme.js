@@ -5,8 +5,8 @@ const theme = {
     colors: {
       body: "#fff",
       text: "#282829",
-      background: "#f3f5f6",
-      primary: "#ff6347",
+      background: "#f14049",
+      primary: "#ff5747",
       secondary: "#ffb0a2",
       error: "#eb5757",
       black: "#000",

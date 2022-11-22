@@ -20,7 +20,7 @@ export const GlobalStyles = createGlobalStyle`
     html, body, #root, .App {
         width: 100%;
         height: 100%;
-        background-color: ${({ theme }) => theme.colors.background};
+        background: rgb(255, 126, 83);
         font-size: 10px;
         font-family: ${({ theme }) => theme.font};
     }
