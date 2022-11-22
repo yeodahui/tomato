@@ -17,6 +17,16 @@ const StyledTodoItem = styled.li`
   transition: all 0.3s;
   background-color: rgba(255, 255, 255, 0.6);
 
+  /* word-break: keep-all; */
+  font-size: 1.6rem;
+  color: #495057;
+
+  ${(props) =>
+    props.done &&
+    css`
+      text-decoration: line-through;
+    `}
+
   &:hover {
     background-color: rgba(255, 255, 255, 0.7);
   }
@@ -31,7 +41,6 @@ const Remove = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  justify-self: end;
   color: #00000040;
   font-size: 24px;
   cursor: pointer;
@@ -40,9 +49,11 @@ const Remove = styled.div`
   }
 `;
 
-const Text = styled.p`
+const Text = styled.span`
+  display: flex;
   padding-top: 1px;
   flex: 1;
+  word-break: keep-all;
   font-size: 1.6rem;
   color: #495057;
 

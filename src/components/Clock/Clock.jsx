@@ -2,11 +2,13 @@ import React, { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 
 const StyledClock = styled.div`
+  margin: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 300px;
+  min-width: 300px;
   height: 300px;
   border-radius: 50%;
   border: 5px solid white;
