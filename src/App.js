@@ -1,15 +1,16 @@
 import "./App.css";
-import { ThemeProvider } from "styled-components";
 import { GlobalStyles } from "./styles/global";
+import { ThemeProvider } from "styled-components";
+// import Routes from "./pages/Routes";
+import HomePage from "./pages/HomePage";
 import theme from "./styles/theme";
-import Routes from "./pages/Routes";
 
 function App() {
   return (
     <ThemeProvider theme={theme.light}>
       <GlobalStyles />
       <div className="App">
-        <Routes />
+        <HomePage />
       </div>
     </ThemeProvider>
   );
