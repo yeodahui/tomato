@@ -15,7 +15,11 @@ const theme = {
       lightgray: "#dbdbdb",
       white: "#fff",
     },
-    font: "SpoqaHanSansNeo, system-ui, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;",
+    fonts: {
+      default:
+        "SpoqaHanSansNeo, system-ui, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;",
+      gmarketSans: "GmarketSans",
+    },
   },
 };
 
