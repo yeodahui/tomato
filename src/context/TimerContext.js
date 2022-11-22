@@ -6,13 +6,11 @@ const SessionDispatchContext = createContext(null);
 function SessionReducer(state, action) {
   switch (action.type) {
     case "WORK":
-      return state.concat(action.todo);
+      return state;
     case "REST":
-      return state.map((todo) =>
-        todo.id === action.id ? { ...todo, done: !todo.done } : todo
-      );
-    case "RONGREST":
-      return state.filter((todo) => todo.id !== action.id);
+      return state;
+    case "LONGREST":
+      return state;
     default:
       return state;
   }
