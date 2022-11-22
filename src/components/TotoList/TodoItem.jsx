@@ -21,20 +21,9 @@ const StyledTodoItem = styled.li`
   font-size: 1.6rem;
   color: #495057;
 
-  ${(props) =>
-    props.done &&
-    css`
-      text-decoration: line-through;
-    `}
-
   &:hover {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
   }
-  ${(props) =>
-    props.done &&
-    css`
-      background-color: rgba(255, 255, 255, 0.3);
-    `}
 `;
 
 const Remove = styled.div`
@@ -81,8 +70,9 @@ const CheckCircle = styled.div`
   ${(props) =>
     props.done &&
     css`
-      border: 1px solid #ff6b6b;
-      color: #ff6b6b;
+      border: 1px solid #26e0b8;
+      background-color: #26e0b8;
+      color: white;
     `}
 `;
 
@@ -104,7 +94,7 @@ const TodoListItem = ({ id, done, text }) => {
   };
 
   return (
-    <StyledTodoItem>
+    <StyledTodoItem done={done}>
       <CheckCircle done={done} onClick={onToggle}>
         {done && <MdDone />}
       </CheckCircle>

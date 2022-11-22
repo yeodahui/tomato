@@ -14,7 +14,8 @@ const StyledTodoForm = styled.form`
   transition: all 0.3s ease-in;
   border-radius: 30px;
 
-  &:focus-within {
+  &:focus-within,
+  &:hover {
     box-shadow: 0 0 15px white;
     background-color: rgba(255, 255, 255, 0.9);
   }
