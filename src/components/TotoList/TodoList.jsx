@@ -44,7 +44,9 @@ const TodoList = (props) => {
   return (
     <StyledTodoContainer>
       <TodoInput />
-      {todos.length > 0 && <p className="divider">할 일</p>}
+      {todos.find((todo) => todo.done === false) && (
+        <p className="divider">할 일</p>
+      )}
       <ul>
         {todos &&
           todos.map((todo) => {

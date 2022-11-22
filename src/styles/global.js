@@ -21,6 +21,7 @@ export const GlobalStyles = createGlobalStyle`
         width: 100%;
         height: 100%;
         font-size: 10px;
+        background-color: rgb(101, 64, 246);
         font-family: ${({ theme }) => theme.font};
     }
 `;
