@@ -1,33 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
-import {
-  useTodoDispatch,
-  useTodoNextId,
-  useTodoState,
-} from "../../context/TodoContext";
+import { useTodoState } from "../../context/TodoContext";
 import TodoInput from "./TodoInput";
 import TodoItem from "./TodoItem";
 
 const StyledTodoContainer = styled.div`
   padding: 20px;
   width: 100%;
+  max-width: 600px;
+  min-width: 300px;
 `;
 
 const TodoList = (props) => {
   const todos = useTodoState();
-
-  //   const handleTodoSubmit = (e) => {
-  //     if (e.key === "Enter") {
-  //       const value = e.target.value;
-  //       if (value) {
-  //         const newTodos = [...todos];
-  //         newTodos.push(value);
-  //         setTodos(newTodos);
-  //         e.target.value = "";
-  //       }
-  //     }
-  //     return;
-  //   };
 
   return (
     <StyledTodoContainer>
